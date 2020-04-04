@@ -10,11 +10,11 @@ void accept()
     {
         for(j=0;j<m;j++)
         {
-           printf("\nENTER THE MAX REQUIRED VALUE for P%d,R%d: ",i,j);
+           printf("\n PLEASE ENTER THE MAX REQUIRED VALUE for P%d,R%d: ",i,j);
            loop: scanf("%d",&val);
            if(val>avail[j])
            {
-               printf("ERROR!!THE ENTERED VALUE IS GREATER THAN THE AVAILABLE VALUE i.e %d .PLZ ENTER THE VALUE AGAIN: ",avail[j]);
+               printf("OOPS ERROR IS FOUND!THE ENTERED VALUE IS GREATER THAN THE AVAILABLE VALUE i.e %d .PLZ ENTER THE VALUE AGAIN: ",avail[j]);
                goto loop;
 
            }
