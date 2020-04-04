@@ -229,17 +229,5 @@ int main()
 
        }
    }
-      for(i=0;i<n;i++)
-   {
-       for(j=0;j<m;j++)
-       {
-           need[i][j]=maxim[i][j]-allo[i][j];
-       }
-   }
-
-   request();
-
-   return 0;
-
-}
+   
 
