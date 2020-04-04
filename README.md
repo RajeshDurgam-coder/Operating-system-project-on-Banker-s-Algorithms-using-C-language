@@ -43,13 +43,14 @@ void rollback(int roll[],int pro)
 int safety()
 {
     int i,j,work[10],finish[10],flag=0,k,cnt=0,cn,flag1=0,ans;
+    
     //char ans;
+    
     printf("\nTHE ALTERED ALLOCATION TABLE IS:\n");
    printf("PROCESS");
    for(i=0;i<m;i++)
    {
        printf("\tR%d\t",i);
-
    }
    printf("\n");
    for(i=0;i<n;i++)
@@ -58,7 +59,6 @@ int safety()
        for(j=0;j<m;j++)
        {
            printf("%d\t\t",allo[i][j]);
-
        }
    }
     j=0;
@@ -71,27 +71,19 @@ int safety()
        for(i=0;i<n;i++)
       {
          finish[i]=0;
-
       }
 
    while(cnt<=10)
    {
-
-
-
-
     for(i=0;i<n;i++)
     {
         if(finish[i]==0)
         {
-
-
         for(j=0;j<m;j++)
         {
             if(need[i][j]<=work[j])
             {
                 flag=1;
-
             }
             else
             {
