@@ -1,4 +1,4 @@
-# Operating-system-project-on-Banker-s-Algorithms-using-C-language
+
 #include<stdio.h>
 #include<stdlib.h>
 int avail[10],maxim[20][20],allo[20][20],m,n,need[20][20];
