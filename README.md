@@ -25,7 +25,20 @@ void accept()
     }
 }
 
+void rollback(int roll[],int pro)
+{
+     int k;
+    for(k=0;k<m;k++)
+              {
 
+
+              avail[k]=avail[k]+roll[k];
+              allo[pro][k]=allo[pro][k]-roll[k];
+              need[pro][k]=allo[pro][k]+roll[k];
+              printf("\nWE ARE ROLLING BACK");
+              }
+
+}
 
 int safety()
 {
