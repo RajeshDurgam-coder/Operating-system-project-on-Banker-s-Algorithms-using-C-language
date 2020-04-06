@@ -185,6 +185,9 @@ void request()
 int main()
 {
    int i,val,j;
+   printf("made by:-Rajesh durgam\n");
+   printf("Registration No.:-11812522\n");
+   printf("Roll No.:-B55\n");
    printf("\nWELCOME TO BANKER'S ALGORITHM\n");
    printf("\nENTER THE NUMBER OF RESOURCES: ");
    scanf("%d",&m);
@@ -232,6 +235,5 @@ int main()
    request();
 
    return 0;
-
 } 
 
