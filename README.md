@@ -126,7 +126,8 @@ int safety()
        ans=0;
        break;
      }
-   }//end of while
+   }
+   //end of while
     if(flag1==0)
     {
         printf("\nTHE SYSTEM IS NOT IN SAFE STATE\n");
